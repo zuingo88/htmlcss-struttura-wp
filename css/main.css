@@ -1,0 +1,77 @@
+/*  REGOLE GENERALI */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* REGOLE DIV ESTERNO */
+.global {
+  margin: 0 10%;
+  min-width: 650px;
+  max-width: 1080px;
+}
+
+
+/* REGOLE HEADER */
+header {
+  width: 100%;
+  height: 100px;
+  background-color: pink;
+}
+
+
+/* REGOLE MAIN */
+
+/* prima section */
+#copertina {
+  width: 100%;
+  height: 400px;
+  margin: 30px 0 30px 0;
+  background-color: orange;
+
+}
+
+/* seconda section */
+
+/* clearfix */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* div conrtenitore dei float */
+.row {
+  background-color: blue;
+}
+
+/* elementi float */
+.row > * {
+  height: 300px;
+  background-color: lightblue;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.title-bar {
+  height: 100px;
+  width: 100%;
+}
+
+.aside {
+  width: 20%;
+}
+
+.articolo {
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* regole footer */
+footer {
+  height: 80px;
+  margin-top: 10px;
+  background-color: purple;
+}
