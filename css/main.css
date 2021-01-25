@@ -17,6 +17,7 @@
 header {
   width: 100%;
   height: 100px;
+
   background-color: pink;
 }
 
@@ -28,6 +29,7 @@ header {
   width: 100%;
   height: 400px;
   margin: 30px 0 30px 0;
+
   background-color: orange;
 
 }
@@ -49,9 +51,10 @@ header {
 /* elementi float */
 .row > * {
   height: 300px;
-  background-color: lightblue;
   float: left;
   margin-bottom: 10px;
+
+  background-color: lightblue;
 }
 
 .title-bar {
@@ -73,5 +76,6 @@ header {
 footer {
   height: 80px;
   margin-top: 10px;
+  
   background-color: purple;
 }
